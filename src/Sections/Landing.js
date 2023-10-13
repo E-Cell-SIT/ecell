@@ -35,9 +35,9 @@ function Landing() {
           <span className="head">{head}</span>
           <span className="vit">SIT</span>
           <span className="down">
-            <a href="https://esummit.ecellvit.com" target="_blank" rel="noreferrer">
+            <a href="https://www.saffrony.ac.in/" target="_blank" rel="noreferrer">
               <button className="redirectbtn">
-                E-Summit <i class="fas fa-external-link-alt"></i>
+               SIT website <i class="fas fa-external-link-alt"></i>
               </button>
             </a>
           </span>
