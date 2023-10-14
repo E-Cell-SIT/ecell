@@ -7,6 +7,7 @@ function Board(props) {
   useEffect(() => {
     AOS.init();
   });
+  function Team(){
   return (
     <div className={props.cls} data-aos="zoom-in" data-aos-offset="-20">
       <div className="bmember">
@@ -28,8 +29,6 @@ function Board(props) {
     </div>
   );
 }
-
-function Team() {
   return (
     <div id="team">
       <DarkBg head="Team" />
