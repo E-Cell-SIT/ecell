@@ -51,7 +51,7 @@ function Team() {
         />
         <Board
           name="Sidhhi Marvaniya"
-          designation="Vide President"
+          designation="Vice President"
           pic="Sidhhi"
           cls="two"
           linkedin="https://www.linkedin.com/in/siddhi-marvaniya/"
