@@ -3,11 +3,11 @@ import React from "react";
 function Social(props) {
     return (
         <div className={`${props.position}`}>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/ecell_vit"><span><i className="fab fa-twitter"></i></span></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?=61551074501094"><span><i className="fab fa-facebook-f"></i></span></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/Saffrony_ecell"><span><i className="fab fa-twitter"></i></span></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/friends/?profile_id=61551074501094&notif_id=1695062053006656&notif_t=friend_confirmed&ref=notif"><span><i className="fab fa-facebook-f"></i></span></a>
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/e-cell-sit"><span><i className="fab fa-linkedin"></i></span></a>
             <a target="_blank" rel="noreferrer" href="https://medium.com/e-cell-vit"><span><i className="fab fa-medium"></i></span></a>
-            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ecell_vit"><span><i className="fab fa-instagram"></i></span></a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ecell_sit/"><span><i className="fab fa-instagram"></i></span></a>
         </div>
     );
 }
