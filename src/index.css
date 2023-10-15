@@ -137,7 +137,7 @@ html {
     display: block;
     width: 200px;
     height: 200px;
-    border-radius: 20%;
+    border-radius: 15px 50px;
 }
 
 .flip-box-inner {
@@ -156,7 +156,7 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    border-radius: 20%;
+    border-radius: 15px 50px;
 }
 
 .flip-box-front {
@@ -168,7 +168,7 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20%;
+    border-radius: 15px 50px;
 }
 
 .flip-box-back {
