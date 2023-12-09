@@ -27,7 +27,11 @@ function Nav() {
         return d < 500 ? 500 : d;
     };
     return ( <div className = { `topnav ${scrolled}` } >
-        <img src = "./assets/Logos/ecell-white.png" alt = "E-cell SIT" height = "45" / > { /* <Link to="gallery" spy={true} smooth='easeInOutQuad' offset={0} duration={durationFn}>Gallery</Link> */ } 
+        <img
+                    src="./assets/Logos/ecell-white.png"
+                    alt="E-cell SIT"
+                    style={{ height: '100%', width: '100%' }}
+                /> { /* <Link to="gallery" spy={true} smooth='easeInOutQuad' offset={0} duration={durationFn}>Gallery</Link> */ } 
         <Link to = "team" spy = { true } smooth = 'easeInOutQuad' offset = { 0 } duration = { durationFn } > Team </Link> 
         <Link to = "activities" spy = { true } smooth = 'easeInOutQuad' offset = { 0 } duration = { durationFn } > Activities </Link> 
         <Link to = "about" spy = { true } smooth = 'easeInOutQuad' offset = { 0 } duration = { durationFn } > About </Link> 
