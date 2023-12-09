@@ -159,10 +159,11 @@ html {
     border-radius: 15px 50px;
 }
 
-.flip-box-front {
+
+/* .flip-box-front {
     background-color: #bbb;
     color: black;
-}
+} */
 
 .flip-box-front img {
     width: 100%;
@@ -1411,9 +1412,9 @@ loading
 }
 
 .leftImage {
-    display: inline;
-    /* flex:1; */
-    /* max-width: 25%; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
 }
 
 .rightText {
@@ -1427,3 +1428,11 @@ loading
     /* flex-direction: row; */
     /* align-items: center; */
 }
+
+.coordinatorImage {
+    margin-right: 25px;
+    /* Adjust the margin as needed for minimal spacing */
+}
+
+
+/* NEW CSS */
