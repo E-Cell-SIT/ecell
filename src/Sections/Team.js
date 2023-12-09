@@ -13,7 +13,7 @@ function Board(props) {
         <div className="flip-box">
           <div className="flip-box-inner">
             <div className="flip-box-front">
-              <img src={`assets/Board/${props.pic}.jpg`} alt={props.name} />
+              <img src={`assets/Board/${props.pic}.png`} alt={props.name} />
             </div>
             <div className="flip-box-back">
               <a href={props.linkedin}>
