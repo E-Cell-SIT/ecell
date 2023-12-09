@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ecell/static/css/main.ab1ee4be.css",
+    "main.js": "/ecell/static/js/main.d07aa14a.js",
+    "static/media/final_cover.png": "/ecell/static/media/final_cover.5711fe1911de924e4b83.png",
+    "index.html": "/ecell/index.html",
+    "main.ab1ee4be.css.map": "/ecell/static/css/main.ab1ee4be.css.map",
+    "main.d07aa14a.js.map": "/ecell/static/js/main.d07aa14a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab1ee4be.css",
+    "static/js/main.d07aa14a.js"
+  ]
+}
