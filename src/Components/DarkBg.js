@@ -6,18 +6,20 @@ function Board(props) {
     useEffect(() => {
         AOS.init();
     });
+
     return (
         <div className={props.cls} data-aos="zoom-in" data-aos-offset="-20">
             <div className="bmember">
-                <div className="flip-box">
+                <div className="flip-box" data-aos="flip-left">
                     <div className="flip-box-inner">
                         <div className="flip-box-front">
-                            <img src={`assets/Board/${props.pic}.jpg`} alt={props.name} />
+                            <img src={`assets/Board/${props.pic}.png`} alt={props.name} />
                         </div>
                         <div className="flip-box-back">
-                            <a href={props.linkedin}>
+                            <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin"></i>
                             </a>
+                            <p>{props.name}</p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +33,8 @@ function Board(props) {
 function DarkBg(props) {
     useEffect(() => {
         AOS.init();
-    })
+    });
+
     return (
         <div className="bg">
             <h2 className="title" data-aos="fade-up" data-aos-offset="-20">{props.head}</h2>
@@ -40,14 +43,14 @@ function DarkBg(props) {
             {props.faculty &&
                 <div className='facultyContainer'>
                     <div className='leftImage'>
-                        {/* <Board
+                        {/* Use the Board component with hover effect */}
+                        <Board
                             name="Mr. Dhiren Parekh"
                             designation="Faculty Coordinator"
-                            pic=""
-                            // cls="one"
-                            linkedin=""
-                        /> */}
-                        <img src={`assets/Board/mdp.jpg`} height={200} alt="Mr. Dhiren Parekh" />
+                            pic="mdp"
+                            cls="one"
+                            linkedin="https://www.linkedin.com/in/dhiren-parekh/"
+                        />
                     </div>
                     <div className='rightText'>
                         <p className="content" data-aos="zoom-in" data-aos-offset="-20">{props.faculty}</p>
