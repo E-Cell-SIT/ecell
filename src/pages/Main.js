@@ -7,7 +7,6 @@ import Gallery from '../Sections/Gallery';
 import Team from '../Sections/Team';
 import Activities from '../Sections/Activities';
 import Faculty from '../Sections/Faculty';
-import CoOrdinator from '../Sections/CoOrdinator';
 
 function Main() {
   return (
@@ -17,7 +16,6 @@ function Main() {
       <About />
       <Activities />
       <Faculty />
-      <CoOrdinator />
       <Team />
       <Gallery />
       <Footer />
