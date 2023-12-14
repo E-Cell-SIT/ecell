@@ -14,12 +14,12 @@ function Main() {
     <>
       {/* <Loader timeout="1000" /> */}
       <Landing />
-      <About />
       <Activities />
       <Faculty />
       <CoOrdinator />
       <Team />
       <Gallery />
+      {/* <About /> */}
       <Footer />
     </>
   );

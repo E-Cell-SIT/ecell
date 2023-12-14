@@ -45,22 +45,22 @@ function DarkBgs(props) {
                     <div className='leftImage'>
                         {/* Use the Board component */}
                         <Board
-                            name="Mr. Akshay Kansara"
+                            name="Prof. Akshay Kansara"
                             designation="Faculty Coordinator"
                             pic="AK"
                             cls="three"
                             linkedin="https://www.linkedin.com/in/akshay-kansara-b004a31aa/"
                         />
                         <Board
-                            name="Ms. Avani Dedhia"
-                            designation="Coordinator"
+                            name="Prof. Avani Dedhia"
+                            designation="Faculty Coordinator"
                             pic="AD"
                             cls="three"
                             linkedin="https://www.linkedin.com/in/avani-dedhia-9572a6202/"
                         />
                         <Board
-                            name="Mr. Kunalsinh Kathia"
-                            designation="Coordinator"
+                            name="Prof. Kunalsinh Kathia"
+                            designation="Faculty Coordinator"
                             pic="KK"
                             cls="three"
                             linkedin="https://www.linkedin.com/in/kunalsinh/"
