@@ -12,7 +12,7 @@ function Board(props) {
                 <div className="flip-box">
                     <div className="flip-box-inner">
                         <div className="flip-box-front">
-                            <img src={`assets/Board/${props.pic}.jpg`} alt={props.name} />
+                            <img src={`assets/Board/${props.pic}.png`} alt={props.name} />
                         </div>
                         <div className="flip-box-back">
                             <a href={props.linkedin}>
@@ -41,13 +41,13 @@ function DarkBg(props) {
                 <div className='facultyContainer'>
                     <div className='leftImage'>
                         {/* <Board
-                            name="Mr. Dhiren Parekh"
+                            name="Dhiren Parekh"
                             designation="Faculty Coordinator"
                             pic=""
                             // cls="one"
                             linkedin=""
                         /> */}
-                        <img src={`assets/Board/mdp.jpg`} height={200} alt="Mr. Dhiren Parekh" />
+                        <img src={`assets/Board/DS.png`} height={200} alt="Dhiren Sir" />
                     </div>
                     <div className='rightText'>
                         <p className="content" data-aos="zoom-in" data-aos-offset="-20">{props.faculty}</p>
