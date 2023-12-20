@@ -6,21 +6,19 @@ function Gimg(props) {
     useEffect(() => {
         AOS.init();
     })
-    return ( < div data-aos = "zoom-in-left"
-        data-aos-offset = "-20" >
+    return (< div data-aos="zoom-in-left" data-aos-offset="-20" >
         <picture >
-        <source media = "(max-width: 960px)" srcset = "./assets/Gallery/TeamPhto-900.jpeg" />
-        <source media = "(min-width: 961px)" srcset = "./assets/Gallery/TeamPhto.jpeg" />
-        <img loading = 'lazy' width = { 1200 } height = { 600 } style = {{ maxWidth: "90vw", height: "auto" }} alt = "E-cell SIT" src = { props.src }/> 
-		</picture > 
-		</div>
+            <img loading='lazy' width={600} height={400} style={{ maxWidth: "90vw", height: "auto", padding: "10px" }} src={props.src} alt="event-image-not-found"  />
+        </picture >
+    </div>
     )
 }
 
 function GalleryPics() {
-    return ( <div id = "GalleryPics" className = "d-flex gal" >
-        <Gimg src = "./assets/Gallery/TeamPhto.jpeg" / >
-        </div>
+    return (<div id="GalleryPics" className="d-flex gal" >
+        <Gimg src="./assets/Gallery/linkedin-1.jpg" />
+        <Gimg src="./assets/Gallery/linkedin-2.jpg" />
+    </div>
     )
 }
 
