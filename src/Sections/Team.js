@@ -135,42 +135,42 @@ function Team() {
         />
         <Board
           name="Smit Vidja"
-          designation="Designing"
+          designation="Content Head"
           pic="Smit"
           cls="three"
           linkedin="https://www.linkedin.com/in/smit-vidja-84-/"
         />
         <Board
           name="Hani Patel"
-          designation="Designing"
+          designation="Designing member"
           pic="Hani"
           cls="three"
           linkedin="https://www.linkedin.com/in/hani-patel-750240212/"
         />
         <Board
           name="Karan Modi"
-          designation="Designing"
+          designation="Designing member"
           pic="Karan"
           cls="three"
           linkedin="https://www.linkedin.com/in/karan-modi-087a64236/"
         />
         <Board
           name="Vivek Upadhyay"
-          designation="Content & Designing"
+          designation="Designing member"
           pic="Vivek"
           cls="three"
           linkedin="https://www.linkedin.com/in/vivek-upadhyay-a87942239/"
         />
         <Board
           name="Mansi Chauhan"
-          designation="Content"
+          designation="Content member"
           pic="Mansi"
           cls="three"
           linkedin="https://www.linkedin.com/in/mansi-chauhan-05a897238/"
         />
         <Board
           name="Vivek Sarkheliya"
-          designation=" Designing"
+          designation=" Designing member"
           pic="VivekS"
           cls="three"
           linkedin="https://www.linkedin.com/in/viveksarkheliya/"
@@ -178,56 +178,56 @@ function Team() {
       
         <Board
           name="Sneha Patel"
-          designation="PR & Hospitality"
+          designation="PR & Hospitality member"
           pic="Sneha"
           cls="three"
           linkedin="https://www.linkedin.com/in/sneha-patel-69ba71241/"
         />
         <Board
           name="Harshit Mishra"
-          designation="PR & Hospitality"
+          designation="PR & Hospitality member"
           pic="Harshit"
           cls="three"
           linkedin="https://www.linkedin.com/in/harshit-mishra-50a664222/"
         />
         <Board
           name="Pritesh Singh"
-          designation="Event"
+          designation="Event member"
           pic="Pritesh"
           cls="three"
           linkedin="https://www.linkedin.com/in/pritesh7599/"
         />
         <Board
           name="Kashish Patel"
-          designation="Event"
+          designation="Event member"
           pic="Kashish"
           cls="three"
           linkedin="https://www.linkedin.com/in/patel-kashish-260241239/"
         />
         <Board
           name="Priya Rathod"
-          designation="Event"
+          designation="Event member"
           pic="Priya"
           cls="three"
           linkedin="https://www.linkedin.com/in/priya-kanwar-1972a7270/"
         />
         <Board
           name="Mit Prajapati"
-          designation="Event"
+          designation="Event member"
           pic="Mit"
           cls="three"
           linkedin="https://www.linkedin.com/in/mitkumar-prajapati-830930253/"
         />
         <Board
           name="Rohan Akhja"
-          designation="Event"
+          designation="Event member"
           pic="Rohan"
           cls="three"
           linkedin="https://www.linkedin.com/in/rohanakhja/"
         />
         <Board
           name="Yash Babariya"
-          designation="Social Media"
+          designation="Social Media member"
           pic="Yash"
           cls="three"
           linkedin="https://www.linkedin.com/in/yashbabariya/"
