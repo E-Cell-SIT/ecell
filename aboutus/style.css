@@ -1,0 +1,238 @@
+body {
+    background-color: black;
+}
+
+:root {
+    --maincolor: #FD6420;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #000F33;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--maincolor);
+}
+
+.logo {
+    z-index: 5;
+    padding: 25px;
+    margin-left: calc(2vh + 5px);
+    background: url("../ew.png");
+    background-repeat: no-repeat;
+    float: top;
+    background-size: cover;
+    box-sizing: border-box;
+    position: fixed;
+    width: calc(50px + 3vw);
+    height: calc(50px + 3vw);
+    top: 3%;
+    left: 0;
+    transform: translate(-1vw, -2vh);
+    clip-path: circle(50.0% at 50% 50%);
+    cursor: pointer;
+}
+
+.navbar {
+    transform: scale(1.01);
+    background: transparent;
+}
+
+.nav-link {
+    color: white !important;
+    border-radius: 9px;
+}
+
+.navbar-toggler {
+    background: white !important;
+}
+
+.active {
+    background: var(--bs-orange);
+    color: black !important;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    background: var(--bs-orange);
+    color: black !important;
+}
+
+.about-section {
+    padding: 130px 0px 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-section {
+        padding: 85px 0px 60px;
+    }
+}
+
+.title h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title span {
+    color: #FD6420;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+p {
+    color: #FDBD28;
+    line-height: 1.8;
+    margin: 0 0 15px;
+    padding-bottom: 12px;
+    font-family: 'Diphylleia', sans-serif;
+}
+
+img {
+    border-radius: 5%;
+    border: 2px solid white;
+}
+
+.social {
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social li a {
+    list-style: none;
+    margin: 0 4px;
+    padding: 0 6px;
+    font-size: 20px;
+    background-color: #6692FF;
+    color: black;
+}
+
+.social li a:hover {
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.footer {
+    background: #000F33;
+    font-family: 'Josefin Slab', serif;
+}
+
+@media only screen and (max-width: 992px) {
+    .importantlinks {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .navbar-nav {
+        background-color: black;
+    }
+}
+
+.importantlinks * {
+    font-family: 'Forum', cursive;
+    font-size: small;
+    color: rgba(133, 132, 132, 0.877);
+}
+
+.importantlinks a {
+    text-decoration: none;
+}
+
+.importantlinks a:hover {
+    text-decoration: underline;
+    color: rgba(190, 179, 179, 0.877);
+}
+
+
+/* Guide Section */
+
+.guide-section {
+    padding: 20px 0;
+    background-color: #000F33;
+    color: #FD6420;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.guide-section h2,
+.collaborators-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.guide-section p,
+.collaborators-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.guide-section .guide-image {
+    max-width: 200px;
+    max-height: 300px;
+    margin-left: 44%;
+}
+
+.guidef {
+    font-family: 'Diphylleia', sans-serif;
+}
+
+.guidef h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+/* Collaborator Section */
+
+.collaborators-section {
+    padding: 80px 0;
+    background-color: #000F33;
+    color: #FD6420;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.collaborators-section .collaborator-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.collaborators-section .collaborator-images .collaborator {
+    position: relative;
+}
+
+.collaborators-section .collaborator-images img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 8px;
+}
+
+.collaborators-section .collaborator-images .tooltip {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1655F2;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    white-space: nowrap;
+    text-align: center;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.collaborators-section .collaborator-images .collaborator:hover .tooltip {
+    visibility: visible;
+    white-space: nowrap;
+    opacity: 1;
+}
