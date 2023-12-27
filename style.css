@@ -73,7 +73,7 @@ html::-webkit-scrollbar-thumb {
     animation: shine 4s linear infinite;
     transform: translateY(2vh);
     font-size: calc(10px + 2vh + 2vw);
-    s
+    
 }
 
 @keyframes shine {
