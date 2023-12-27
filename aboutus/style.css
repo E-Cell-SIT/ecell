@@ -179,6 +179,10 @@ img {
     margin-left: 44%;
 }
 
+.guide-section .guide-image .guide {
+    position: relative;
+}
+
 .guidef {
     font-family: 'Diphylleia', sans-serif;
 }
@@ -186,6 +190,28 @@ img {
 .guidef h2 {
     font-size: 45px;
     font-weight: 600;
+}
+
+.guide-section .guide-image .tooltip {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1655F2;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    white-space: nowrap;
+    text-align: center;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.guide-section .guide-image .guide:hover .tooltip {
+    visibility: visible;
+    white-space: nowrap;
+    opacity: 1;
 }
 
 

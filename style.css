@@ -413,3 +413,24 @@ body {
     text-decoration: underline;
     color: rgba(190, 179, 179, 0.877);
 }
+
+.mgg {
+    position: relative;
+    font-family: 'Dancing Script';
+    letter-spacing: 0.2em;
+}
+
+.mgg * {
+    font-size: 1.1em;
+}
+
+.mg {
+    transition: 1s ease-in-out;
+}
+
+.mh {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: 1s ease-in-out;
+}
