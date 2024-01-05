@@ -39,7 +39,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #000F33;
+    background: #1655F2;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -109,7 +109,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .main-heading {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
     /*   text-transform: uppercase; */
@@ -125,7 +125,7 @@ html::-webkit-scrollbar-thumb {
 .team-heading {
     margin: 30px 0;
     text-align: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: white;
     letter-spacing: 5px;
@@ -225,8 +225,8 @@ img {
 }
 
 .footer {
-    background: #000F33;
-    font-family: 'Josefin Slab', serif;
+    background: #1655F2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 992px) {
@@ -237,7 +237,7 @@ img {
 }
 
 .importantlinks * {
-    font-family: 'Forum', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: small;
     color: rgba(133, 132, 132, 0.877);
 }

@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #000F33;
+    background: #1655F2;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -87,11 +87,11 @@ html::-webkit-scrollbar-thumb {
 }
 
 p {
-    color: #FDBD28;
+    color: #F5F8FF;
     line-height: 1.8;
     margin: 0 0 15px;
     padding-bottom: 12px;
-    font-family: 'Diphylleia', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -122,8 +122,7 @@ img {
 }
 
 .footer {
-    background: #000F33;
-    font-family: 'Josefin Slab', serif;
+    background: #1655F2;
 }
 
 @media only screen and (max-width: 992px) {
@@ -137,7 +136,7 @@ img {
 }
 
 .importantlinks * {
-    font-family: 'Forum', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: small;
     color: rgba(133, 132, 132, 0.877);
 }
@@ -156,7 +155,7 @@ img {
 
 .guide-section {
     padding: 20px 0;
-    background-color: #000F33;
+    background-color: #1655F2;
     color: #FD6420;
     font-family: 'Montserrat', sans-serif;
 }
@@ -184,7 +183,7 @@ img {
 }
 
 .guidef {
-    font-family: 'Diphylleia', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .guidef h2 {
@@ -219,7 +218,7 @@ img {
 
 .collaborators-section {
     padding: 80px 0;
-    background-color: #000F33;
+    background-color: #1655F2;
     color: #FD6420;
     font-family: 'Montserrat', sans-serif;
 }

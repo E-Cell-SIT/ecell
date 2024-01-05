@@ -7,7 +7,7 @@ body {
     margin: 0;
     transition: 1s ease-out;
     transition-delay: 570ms;
-    font-family: 'Poiret One', 'Josefin Sans''Architects Daughter', cursive;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     width: 100vw;
     overflow-x: hidden;
@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #000F33;
+    background: #1655F2;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -64,7 +64,7 @@ html::-webkit-scrollbar-thumb {
     text-align: center;
     padding-right: 9px;
     background: rgb(22, 11, 30);
-    background: linear-gradient(90deg, #1655F2 14%, #FDBD28 49%, #FD6420 85%);
+    background: linear-gradient(90deg, #1655F2 14%, #F5F8FF 49%, #FD6420 85%);
     background-size: 200% auto;
     color: #160B1E;
     background-clip: text;
@@ -73,7 +73,6 @@ html::-webkit-scrollbar-thumb {
     animation: shine 4s linear infinite;
     transform: translateY(2vh);
     font-size: calc(10px + 2vh + 2vw);
-    
 }
 
 @keyframes shine {
@@ -198,11 +197,10 @@ body {
 
 .heading {
     font-size: calc(1vh + 4vw);
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 35%;
-    margin-left: 17vw;
-    margin-right: 17vw;
+    margin-left: 35vw;
     font-weight: 600;
     letter-spacing: calc(1vh);
     color: rgb(255, 255, 255);
@@ -213,7 +211,7 @@ body {
     background: rgb(213, 213, 213);
     background: radial-gradient(circle, rgba(213, 213, 213, 1) 16%, rgba(255, 201, 0, 1) 32%, rgba(0, 0, 0, 1) 64%);
     background-size: 200% auto;
-    font-family: 'PT Serif', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #160B1E;
     background-clip: text;
     -webkit-background-clip: text;
@@ -225,10 +223,10 @@ body {
     box-sizing: border-box;
     font-size: calc(1vh + 5px + 2vw);
     transform: scale(0.8);
-    font-family: 'Poiret One', 'Slabo 27px', serif;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 60%;
-    right: 17vw;
+    right: 19vw;
     margin-left: 16vw;
     text-align: center;
     font-weight: 500;
@@ -345,13 +343,13 @@ body {
 }
 
 .midbody {
-    background: #000F33;
-    font-family: 'Diphylleia', sans-serif;
+    background: #1655F2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .quotegenerator {
     position: relative;
-    font-family: 'Dancing Script';
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.2em;
 }
 
@@ -388,8 +386,8 @@ body {
 /*------------------Footer Below------------------*/
 
 .footer {
-    background: #000F33;
-    font-family: 'Josefin Slab', serif;
+    background: #1655F2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 992px) {
@@ -400,7 +398,7 @@ body {
 }
 
 .importantlinks * {
-    font-family: 'Forum', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: small;
     color: rgba(133, 132, 132, 0.877);
 }
@@ -416,7 +414,7 @@ body {
 
 .mgg {
     position: relative;
-    font-family: 'Dancing Script';
+    font-family: 'Montserrat', 'sans-serif';
     letter-spacing: 0.2em;
 }
 
