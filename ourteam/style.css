@@ -86,22 +86,26 @@ html::-webkit-scrollbar-thumb {
 }
 
 .dropdown-menu {
-    background-color: var(--bs-orange); /* Set your desired background color */
+    background-color: var(--bs-orange);
+    border-radius: 9px;
+    /* Set your desired background color */
 }
 
 .dropdown-item {
     color: black !important;
+    border-radius: 9px;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus,
 .dropdown-item:active {
-    background-color: #fff; /* Set your desired hover background color */
+    background-color: #fff;
+    /* Set your desired hover background color */
     color: black !important;
+    border-radius: 9px;
 }
 
 
- 
 /* navigation bar end */
 
 .borderup {
@@ -125,7 +129,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .main-heading {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Slab', serif;
     color: white;
     text-align: center;
     /*   text-transform: uppercase; */
@@ -141,7 +145,7 @@ html::-webkit-scrollbar-thumb {
 .team-heading {
     margin: 30px 0;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Slab', serif;
     font-weight: 400;
     color: white;
     letter-spacing: 5px;
@@ -242,7 +246,7 @@ img {
 
 .footer {
     background: #1655F2;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Slab', serif;
 }
 
 @media only screen and (max-width: 992px) {
@@ -253,7 +257,7 @@ img {
 }
 
 .importantlinks * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forum', cursive;
     font-size: small;
     color: rgba(133, 132, 132, 0.877);
 }

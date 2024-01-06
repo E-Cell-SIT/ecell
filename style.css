@@ -7,7 +7,7 @@ body {
     margin: 0;
     transition: 1s ease-out;
     transition-delay: 570ms;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', 'Josefin Sans''Architects Daughter', cursive;
     color: white;
     width: 100vw;
     overflow-x: hidden;
@@ -70,7 +70,7 @@ html::-webkit-scrollbar-thumb {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: shine 4s linear infinite;
+    animation: shine 2s linear infinite;
     transform: translateY(2vh);
     font-size: calc(10px + 2vh + 2vw);
 }
@@ -197,7 +197,7 @@ body {
 
 .heading {
     font-size: calc(1vh + 4vw);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Slabo 27px', serif;
     position: absolute;
     top: 35%;
     margin-left: 35vw;
@@ -211,7 +211,7 @@ body {
     background: rgb(213, 213, 213);
     background: radial-gradient(circle, rgba(213, 213, 213, 1) 16%, rgba(255, 201, 0, 1) 32%, rgba(0, 0, 0, 1) 64%);
     background-size: 200% auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
     color: #160B1E;
     background-clip: text;
     -webkit-background-clip: text;
@@ -223,10 +223,10 @@ body {
     box-sizing: border-box;
     font-size: calc(1vh + 5px + 2vw);
     transform: scale(0.8);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', 'Slabo 27px', serif;
     position: absolute;
     top: 60%;
-    right: 19vw;
+    right: 24vw;
     margin-left: 16vw;
     text-align: center;
     font-weight: 500;
@@ -319,12 +319,12 @@ body {
 
 .midbody {
     background: #1655F2;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Diphylleia', sans-serif;
 }
 
 .quotegenerator {
     position: relative;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dancing Script';
     letter-spacing: 0.2em;
 }
 
@@ -362,7 +362,7 @@ body {
 
 .footer {
     background: #1655F2;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Slab', serif;
 }
 
 @media only screen and (max-width: 992px) {
@@ -373,7 +373,7 @@ body {
 }
 
 .importantlinks * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forum', cursive;
     font-size: small;
     color: rgba(133, 132, 132, 0.877);
 }
@@ -389,7 +389,7 @@ body {
 
 .mgg {
     position: relative;
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Dancing Script';
     letter-spacing: 0.2em;
 }
 
@@ -406,4 +406,23 @@ body {
     bottom: 0;
     right: 0;
     transition: 1s ease-in-out;
+}
+
+.dropdown-menu {
+    background-color: var(--bs-orange);
+    /* Set your desired background color */
+}
+
+.dropdown-item {
+    color: black !important;
+    border-radius: 9px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: #fff;
+    /* Set your desired hover background color */
+    color: black !important;
+    border-radius: 9px;
 }
