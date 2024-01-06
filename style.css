@@ -229,9 +229,9 @@ body {
     right: 24vw;
     margin-left: 16vw;
     text-align: center;
-    font-weight: 500;
+    font-weight: bolder;
     letter-spacing: 1vh;
-    color: rgb(255, 255, 255);
+    color: #1655F2;
     opacity: 100;
 }
 

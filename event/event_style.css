@@ -93,9 +93,10 @@ body {
     position: relative;
     box-shadow: 8px rgba(0, 0, 0, 0.24);
     background: black;
-    /* overflow:hidden; */
     background: url('ev1.jpg');
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .logo {
@@ -1223,4 +1224,26 @@ p {
 .importantlinks a:hover {
     text-decoration: underline;
     color: rgba(190, 179, 179, 0.877);
+}
+
+.dropdown-menu {
+    background-color: var(--bs-orange);
+    border-radius: 12px;
+    width: 150px;
+}
+
+.dropdown-item {
+    color: black !important;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: #fff;
+    color: black !important;
+    border-radius: 12px;
+    -webkit-text-fill-color: #FD6420;
+    font-weight: bold;
 }
