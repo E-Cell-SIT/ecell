@@ -16,7 +16,7 @@ body {
 }
 
 :root {
-    --maincolor: #FD6420;
+    --maincolor: #53f9ff;
 }
 
 html::-webkit-scrollbar {
@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #1655F2;
+    background: #000F33;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -132,14 +132,14 @@ body {
 }
 
 .active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
@@ -318,7 +318,7 @@ body {
 }
 
 .midbody {
-    background: #1655F2;
+    background: #000F33;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -361,7 +361,7 @@ body {
 /*------------------Footer Below------------------*/
 
 .footer {
-    background: #1655F2;
+    background: #000F33;
     font-family: 'Montserrat', sans-serif;
 }
 

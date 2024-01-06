@@ -3,7 +3,7 @@ body {
 }
 
 :root {
-    --maincolor: #FD6420;
+    --maincolor: #53f9ff;
 }
 
 html::-webkit-scrollbar {
@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #1655F2;
+    background: #000F33;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -52,14 +52,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 .active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
@@ -81,7 +81,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .title span {
-    color: #FD6420;
+    color: #1655F2;
     font-size: 45px;
     font-weight: 700;
 }
@@ -96,7 +96,7 @@ p {
 
 img {
     border-radius: 5%;
-    border: 2px solid white;
+    border: 2px solid #53f9ff;
 }
 
 .social {
@@ -141,7 +141,7 @@ img {
 }
 
 .footer {
-    background: #1655F2;
+    background: #000F33;
 }
 
 @media only screen and (max-width: 992px) {
@@ -157,7 +157,7 @@ img {
 .importantlinks * {
     font-family: 'Montserrat', sans-serif;
     font-size: small;
-    color: rgba(133, 132, 132, 0.877);
+    color: #808080;
 }
 
 .importantlinks a {
@@ -174,8 +174,8 @@ img {
 
 .guide-section {
     padding: 20px 0;
-    background-color: #1655F2;
-    color: #FD6420;
+    background-color: #000F33;
+    color: #53f9ff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -194,7 +194,7 @@ img {
 .guide-section .guide-image {
     max-width: 200px;
     max-height: 300px;
-    margin-left: 44%;
+    margin-left: 46.5%;
 }
 
 .guide-section .guide-image .guide {
@@ -215,7 +215,7 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #1655F2;
+    background-color: #000F33;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -237,8 +237,8 @@ img {
 
 .collaborators-section {
     padding: 80px 0;
-    background-color: #1655F2;
-    color: #FD6420;
+    background-color: #000F33;
+    color: #53f9ff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -264,7 +264,7 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #1655F2;
+    background-color: #000F33;
     color: white;
     padding: 5px;
     border-radius: 5px;

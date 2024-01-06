@@ -11,11 +11,11 @@ body {
     width: 100vw;
     overflow-x: hidden;
     height: 200vh;
-    background-color: #1655F2;
+    background-color: #000F33;
 }
 
 :root {
-    --maincolor: #FD6420;
+    --maincolor: #53f9ff;
 }
 
 html::-webkit-scrollbar {
@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #1655F2;
+    background: #000F33;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -69,14 +69,14 @@ body {
 }
 
 .active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
@@ -124,7 +124,7 @@ body {
     margin-right: 17vw;
     font-weight: 600;
     letter-spacing: calc(1vh);
-    color: #FD6420;
+    color: #53f9ff;
     opacity: 100;
     /* transform: scale(1.05); */
     text-align: center;
@@ -1197,7 +1197,7 @@ p {
 }
 
 .footer {
-    background: #1655F2;
+    background: #000F33;
     font-family: 'Montserrat', sans-serif;
 }
 

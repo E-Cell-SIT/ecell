@@ -26,12 +26,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; */
-    background: #010101;
+    background: #000F33;
     /* 220e24  */
 }
 
 :root {
-    --maincolor: #FD6420;
+    --maincolor: #53f9ff;
 }
 
 html::-webkit-scrollbar {
@@ -39,7 +39,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #1655F2;
+    background: #000F33;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -64,14 +64,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 .active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: var(--bs-orange);
+    background: #53f9ff;
     color: black !important;
 }
 
@@ -162,7 +162,7 @@ html::-webkit-scrollbar-thumb {
     height: 400px;
     background: rgba(102, 102, 102, 0.1);
     margin: 20px;
-    box-shadow: 0 1px 2px 2px #393e46;
+    box-shadow: 0 1px 2px 2px #53f9ff;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -241,7 +241,7 @@ img {
 }
 
 .footer {
-    background: #1655F2;
+    background: #000F33;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -255,7 +255,7 @@ img {
 .importantlinks * {
     font-family: 'Montserrat', sans-serif;
     font-size: small;
-    color: rgba(133, 132, 132, 0.877);
+    color: #808080;
 }
 
 .importantlinks a {
