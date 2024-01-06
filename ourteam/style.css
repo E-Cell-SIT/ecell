@@ -85,7 +85,23 @@ html::-webkit-scrollbar-thumb {
     overflow-x: hidden;
 }
 
+.dropdown-menu {
+    background-color: var(--bs-orange); /* Set your desired background color */
+}
 
+.dropdown-item {
+    color: black !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: #fff; /* Set your desired hover background color */
+    color: black !important;
+}
+
+
+ 
 /* navigation bar end */
 
 .borderup {
