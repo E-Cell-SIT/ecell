@@ -1,30 +1,24 @@
 /*-----------------BELOW IS PRELOADER-------------*/
 
-let timer1;
-let timer2;
-let timer3;
-
-let preloader = document.querySelector('.preloader');
+let timer1
+let preloader = document.querySelector('.preloader')
 let nav = document.querySelector('.navbar');
-
 timer1 = setInterval(() => {
     preloader.classList.add('endpreloadopacity');
-    clearInterval(timer1);
-}, 4500);
+    setTimeout(timer1);
 
-timer2 = setInterval(() => {
+}, 3000)
+let timer2 = setInterval(() => {
     nav.classList.remove('nav_beforepreload');
+    setTimeout(timer2);
     document.body.style.transition = "0s none";
-    document.body.style.transitionDelay = "none";
+    document.body.style.transition.delay = "none";
     document.querySelector('.headervdo').classList.add('headervdo_afterpreload');
-    clearInterval(timer2);
-}, 4600);
-
-timer3 = setInterval(() => {
+}, 1600)
+let timer3 = setInterval(() => {
     preloader.style.display = 'none';
-    clearInterval(timer3);
-}, 5500);
-
+    setTimeout(timer3);
+}, 2500)
 
 /*-----------------ABOVE WAS PRELOADER-------------*/
 

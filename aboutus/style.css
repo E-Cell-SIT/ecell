@@ -284,6 +284,8 @@ img {
 .dropdown-menu {
     background-color: var(--bs-orange);
     /* Set your desired background color */
+    border-radius: 12px;
+    max-width: 10px;
 }
 
 .dropdown-item {
