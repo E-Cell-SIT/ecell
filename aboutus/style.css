@@ -91,7 +91,7 @@ p {
     line-height: 1.8;
     margin: 0 0 15px;
     padding-bottom: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Diphylleia', sans-serif;
 }
 
 img {
@@ -155,7 +155,7 @@ img {
 }
 
 .importantlinks * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forum', cursive;
     font-size: small;
     color: #808080;
 }
@@ -202,7 +202,7 @@ img {
 }
 
 .guidef {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Diphylleia', sans-serif;
 }
 
 .guidef h2 {
@@ -279,4 +279,25 @@ img {
     visibility: visible;
     white-space: nowrap;
     opacity: 1;
+}
+
+.dropdown-menu {
+    background-color: var(--bs-orange);
+    /* Set your desired background color */
+    border-radius: 12px;
+    max-width: 10px;
+}
+
+.dropdown-item {
+    color: black !important;
+    border-radius: 9px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: #fff;
+    /* Set your desired hover background color */
+    color: black !important;
+    border-radius: 9px;
 }

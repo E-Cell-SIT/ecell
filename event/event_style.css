@@ -6,7 +6,7 @@ body {
     margin: 0;
     transition: 1s ease-out;
     transition-delay: 570ms;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', 'Josefin Sans''Architects Daughter', cursive;
     color: white;
     width: 100vw;
     overflow-x: hidden;
@@ -66,6 +66,7 @@ body {
 
 .navbar-toggler {
     background: white !important;
+    border-radius: 9px;
 }
 
 .active {
@@ -78,6 +79,7 @@ body {
 .nav-link:active {
     background: #53f9ff;
     color: black !important;
+    border-radius: 9px;
 }
 
 .header {
@@ -91,9 +93,10 @@ body {
     position: relative;
     box-shadow: 8px rgba(0, 0, 0, 0.24);
     background: black;
-    /* overflow:hidden; */
     background: url('ev1.jpg');
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .logo {
@@ -117,7 +120,7 @@ body {
 
 .heading {
     font-size: 100px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Slabo 27px', serif;
     position: absolute;
     top: 35%;
     margin-left: 17vw;
@@ -204,17 +207,17 @@ body {
 }
 
 .up_head {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Diphylleia', sans-serif;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Kalnia', cursive;
 }
 
 .talk {
     padding-bottom: 15px;
     color: blanchedalmond;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 .upcoming:hover {
@@ -351,7 +354,7 @@ p {
     color: white;
     font-size: 20px;
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 .past .cardz .box .contentBx div p {
@@ -1144,8 +1147,8 @@ p {
     transform-origin: 50% 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-transition: color 200ms, background 200ms;
-    transition: color 200ms, background 200ms;
+    -webkit-transition: color 200ms, 200ms;
+    transition: color 200ms, 200ms;
     opacity: 0.5;
 }
 
@@ -1177,7 +1180,7 @@ p {
 .reach_us {
     padding-top: 35px;
     padding-bottom: 35px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Diphylleia', sans-serif;
 }
 
 @media only screen and (max-width: 450px) {
@@ -1197,8 +1200,13 @@ p {
 }
 
 .footer {
+
     background: #000F33;
     font-family: 'Montserrat', sans-serif;
+
+    background: #1655F2;
+    font-family: 'Josefin Slab', serif;
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -1209,7 +1217,7 @@ p {
 }
 
 .importantlinks * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forum', cursive;
     font-size: small;
     color: rgba(133, 132, 132, 0.877);
 }
@@ -1221,4 +1229,26 @@ p {
 .importantlinks a:hover {
     text-decoration: underline;
     color: rgba(190, 179, 179, 0.877);
+}
+
+.dropdown-menu {
+    background-color: var(--bs-orange);
+    border-radius: 12px;
+    width: 150px;
+}
+
+.dropdown-item {
+    color: black !important;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: #fff;
+    color: black !important;
+    border-radius: 12px;
+    -webkit-text-fill-color: #FD6420;
+    font-weight: bold;
 }
