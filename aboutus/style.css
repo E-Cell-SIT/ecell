@@ -282,13 +282,14 @@ img {
 }
 
 .dropdown-menu {
-    background-color: var(--bs-orange);
+    background-color: #53f9ff;
     /* Set your desired background color */
     border-radius: 12px;
     max-width: 10px;
 }
 
 .dropdown-item {
+    background-color: #53f9ff;
     color: black !important;
     border-radius: 9px;
 }

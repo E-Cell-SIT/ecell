@@ -318,7 +318,7 @@ body {
 }
 
 .midbody {
-    background: #1655F2;
+    background: #000F33;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -361,7 +361,7 @@ body {
 /*------------------Footer Below------------------*/
 
 .footer {
-    background: #1655F2;
+    background: #000F33;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -409,11 +409,12 @@ body {
 }
 
 .dropdown-menu {
-    background-color: var(--bs-orange);
+    background-color: #53f9ff;
     /* Set your desired background color */
 }
 
 .dropdown-item {
+    background-color: #53f9ff;
     color: black !important;
     border-radius: 9px;
 }

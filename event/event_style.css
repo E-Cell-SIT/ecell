@@ -1204,7 +1204,7 @@ p {
     background: #000F33;
     font-family: 'Montserrat', sans-serif;
 
-    background: #1655F2;
+    background: #000F33;
     font-family: 'Josefin Slab', serif;
 
 }
@@ -1232,12 +1232,13 @@ p {
 }
 
 .dropdown-menu {
-    background-color: var(--bs-orange);
+    background-color:#53f9ff;
     border-radius: 12px;
     width: 150px;
 }
 
 .dropdown-item {
+    background-color: #53f9ff;
     color: black !important;
     border-radius: 12px;
     padding: 10px 15px;
