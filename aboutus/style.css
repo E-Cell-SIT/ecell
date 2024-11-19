@@ -1,9 +1,9 @@
 body {
-    background-color: black;
+    background-color: #F5F8FF;
 }
 
 :root {
-    --maincolor: #53f9ff;
+    --maincolor: #F5F8FF;
 }
 
 html::-webkit-scrollbar {
@@ -11,14 +11,14 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #000F33;
+    background: #6692FF;
 }
 
 html::-webkit-scrollbar-thumb {
     background: var(--maincolor);
 }
 
-.logo {
+.ecellLogo {
     z-index: 5;
     padding: 25px;
     margin-left: calc(2vh + 5px);
@@ -37,13 +37,46 @@ html::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
+.saffLogo {
+    z-index: 5;
+    padding: 25px; 
+    margin-left: calc(2vh + 5px);
+    background: url("../saff.png"); 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    box-sizing: border-box;
+    position: fixed;
+    width: 100px; 
+    height: 50px; 
+    bottom: 3%; 
+    left: 0; 
+    cursor: pointer; 
+}
+
+.necLogo {
+    z-index: 5;
+    padding: 25px; 
+    background: url("../nec.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+    box-sizing: border-box;
+    position: fixed;
+    width: 50px; 
+    height: 80px; 
+    bottom: 3%; 
+    right: 2%;  
+    cursor: pointer; 
+}
+
 .navbar {
     transform: scale(1.01);
     background: transparent;
 }
 
 .nav-link {
-    color: white !important;
+    color: #6692FF !important;
     border-radius: 9px;
 }
 
@@ -52,14 +85,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 .active {
-    background: #53f9ff;
+    background: #6692FF;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: #53f9ff;
+    background: #6692FF ;
     color: black !important;
 }
 
@@ -74,24 +107,26 @@ html::-webkit-scrollbar-thumb {
 }
 
 .title h1 {
-    color: white;
+    color: #6692FF ;
     font-size: 45px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
 .title span {
-    color: #1655F2;
+    color:  #000F33;
     font-size: 45px;
     font-weight: 700;
 }
 
 p {
-    color: #F5F8FF;
+    color: #6692FF;
     line-height: 1.8;
     margin: 0 0 15px;
     padding-bottom: 12px;
-    font-family: 'Diphylleia', sans-serif;
+    font-size: larger;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -155,9 +190,10 @@ img {
 }
 
 .importantlinks * {
-    font-family: 'Forum', cursive;
+    font-family: 'Montserrat';
     font-size: small;
-    color: #808080;
+    color: #6692FF;
+    font-size: medium;
 }
 
 .importantlinks a {
@@ -166,7 +202,7 @@ img {
 
 .importantlinks a:hover {
     text-decoration: underline;
-    color: rgba(190, 179, 179, 0.877);
+    color: white;
 }
 
 
@@ -174,8 +210,9 @@ img {
 
 .guide-section {
     padding: 20px 0;
-    background-color: #000F33;
-    color: #53f9ff;
+    background-color: #F5F8FF;
+    color: #6692FF;
+    text-wrap: ;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -187,14 +224,16 @@ img {
 
 .guide-section p,
 .collaborators-section p {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.6;
+    display: flex;
+    text-align: justify;
 }
 
 .guide-section .guide-image {
     max-width: 200px;
     max-height: 300px;
-    margin-left: 43%;
+    margin-left: 45%;
 }
 
 .guide-section .guide-image .guide {
@@ -202,7 +241,7 @@ img {
 }
 
 .guidef {
-    font-family: 'Diphylleia', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .guidef h2 {
@@ -215,7 +254,7 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #000F33;
+    background-color: #6692FF;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -237,7 +276,7 @@ img {
 
 .collaborators-section {
     padding: 80px 0;
-    background-color: #000F33;
+    background-color: #F5F8FF;
     color: #53f9ff;
     font-family: 'Montserrat', sans-serif;
 }
@@ -282,23 +321,24 @@ img {
 }
 
 .dropdown-menu {
-    background-color: #53f9ff;
-    /* Set your desired background color */
+    background-color:#6692FF;
     border-radius: 12px;
-    max-width: 10px;
+    width: 150px;
 }
 
 .dropdown-item {
-    background-color: #53f9ff;
+    background-color: #6692FF;
     color: black !important;
-    border-radius: 9px;
+    border-radius: 12px;
+    padding: 10px 15px;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus,
 .dropdown-item:active {
-    background-color: #fff;
-    /* Set your desired hover background color */
+    background-color: #6692FF;
     color: black !important;
-    border-radius: 9px;
-}
+    border-radius: 12px;
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+}}
