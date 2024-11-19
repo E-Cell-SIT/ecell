@@ -6,12 +6,12 @@ body {
     margin: 0;
     transition: 1s ease-out;
     transition-delay: 570ms;
-    font-family: 'Poiret One', 'Josefin Sans''Architects Daughter', cursive;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #000F33;
     width: 100vw;
     overflow-x: hidden;
     height: 200vh;
-    background-color: #000F33;
+    background-color: #CCDBFF;
 }
 
 :root {
@@ -60,24 +60,24 @@ body {
 }
 
 .nav-link {
-    color: white !important;
+    color: #6692FF !important;
     border-radius: 9px;
 }
 
 .navbar-toggler {
-    background: white !important;
+    background: #6692FF !important;
     border-radius: 9px;
 }
 
 .active {
-    background: #53f9ff;
+    background: #6692FF;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: #53f9ff;
+    background: #6692FF;
     color: black !important;
     border-radius: 9px;
 }
@@ -99,7 +99,7 @@ body {
     background-attachment: fixed;
 }
 
-.logo {
+.ecellLogo {
     z-index: 5;
     padding: 25px;
     margin-left: calc(2vh + 5px);
@@ -118,6 +118,39 @@ body {
     cursor: pointer;
 }
 
+.saffLogo {
+    z-index: 5;
+    padding: 25px; 
+    margin-left: calc(2vh + 5px);
+    background: url("../saff.png"); 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    box-sizing: border-box;
+    position: fixed;
+    width: 100px; 
+    height: 50px; 
+    bottom: 3%; 
+    left: 0; 
+    cursor: pointer; 
+}
+
+.necLogo {
+    z-index: 5;
+    padding: 25px; 
+    background: url("../nec.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+    box-sizing: border-box;
+    position: fixed;
+    width: 50px; 
+    height: 80px; 
+    bottom: 3%; 
+    right: 2%;  
+    cursor: pointer; 
+}
+
 .heading {
     font-size: 100px;
     font-family: 'Slabo 27px', serif;
@@ -127,7 +160,7 @@ body {
     margin-right: 17vw;
     font-weight: 600;
     letter-spacing: calc(1vh);
-    color: #53f9ff;
+    color:  #6692FF;
     opacity: 100;
     /* transform: scale(1.05); */
     text-align: center;
@@ -175,9 +208,10 @@ body {
 }
 
 .twitter {
-    background: url("twitter.jpg") no-repeat;
+    background: url("../twitter.webp") no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-color: white;
     filter: saturate(1);
     transition: all 250ms ease-in;
 }
@@ -207,17 +241,17 @@ body {
 }
 
 .up_head {
-    font-family: 'Diphylleia', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    font-family: 'Kalnia', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .talk {
     padding-bottom: 15px;
     color: blanchedalmond;
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .upcoming:hover {
@@ -346,7 +380,7 @@ p {
 .past .cardz .box .contentBx div {
     transform-style: preserve-3d;
     padding: 20px;
-    background: linear-gradient(45deg, #FD6420, #1655F2);
+    background: linear-gradient(45deg, #FD6420, #CCDBFF);
     transform: translateZ(100px);
 }
 
@@ -354,9 +388,8 @@ p {
     color: white;
     font-size: 20px;
     letter-spacing: 1px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
-
 .past .cardz .box .contentBx div p {
     color: white;
     font-size: 13px;
@@ -392,7 +425,7 @@ p {
 }
 
 
-/*Below is gallery section*/
+/*Below is gallery section */
 
 .coverflow {
     position: relative;
@@ -1138,7 +1171,7 @@ p {
     position: absolute;
     top: 50%;
     padding: 1.5rem 2rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #6692FF;
     font-size: 3rem;
     line-height: 3rem;
     background: transparent;
@@ -1157,7 +1190,7 @@ p {
 .prev-arrow:focus,
 .next-arrow:focus {
     color: rgba(7, 7, 7, 0.9);
-    background-color: thistle;
+    background-color: #6692FF;
     opacity: 1;
 }
 
@@ -1180,7 +1213,7 @@ p {
 .reach_us {
     padding-top: 35px;
     padding-bottom: 35px;
-    font-family: 'Diphylleia', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 450px) {
@@ -1205,8 +1238,7 @@ p {
     font-family: 'Montserrat', sans-serif;
 
     background: #000F33;
-    font-family: 'Josefin Slab', serif;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 992px) {
@@ -1217,9 +1249,9 @@ p {
 }
 
 .importantlinks * {
-    font-family: 'Forum', cursive;
-    font-size: small;
-    color: rgba(133, 132, 132, 0.877);
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #6692FF;
 }
 
 .importantlinks a {
@@ -1228,17 +1260,17 @@ p {
 
 .importantlinks a:hover {
     text-decoration: underline;
-    color: rgba(190, 179, 179, 0.877);
+    color: #6692FF;
 }
 
 .dropdown-menu {
-    background-color:#53f9ff;
+    background-color:#6692FF;
     border-radius: 12px;
     width: 150px;
 }
 
 .dropdown-item {
-    background-color: #53f9ff;
+    background-color: #6692FF;
     color: black !important;
     border-radius: 12px;
     padding: 10px 15px;
@@ -1247,9 +1279,9 @@ p {
 .dropdown-item:hover,
 .dropdown-item:focus,
 .dropdown-item:active {
-    background-color: #fff;
+    background-color: #6692FF;
     color: black !important;
     border-radius: 12px;
-    -webkit-text-fill-color: #FD6420;
+    -webkit-text-fill-color: white;
     font-weight: bold;
-}
+}}
