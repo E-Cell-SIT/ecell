@@ -250,7 +250,7 @@ p {
 
 .talk {
     padding-bottom: 15px;
-    color: blanchedalmond;
+    color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -1284,4 +1284,4 @@ p {
     border-radius: 12px;
     -webkit-text-fill-color: white;
     font-weight: bold;
-}}
+}

@@ -7,16 +7,16 @@ body {
     margin: 0;
     transition: 1s ease-out;
     transition-delay: 570ms;
-    font-family: 'Poiret One', 'Josefin Sans''Architects Daughter', cursive;
-    color: white;
+    font-family: 'Montserrat';
+    color: #000F33;
     width: 100vw;
     overflow-x: hidden;
     height: 200vh;
-    background-color: #E9ECEF;
+    background-color: #CCDBFF;
 }
 
 :root {
-    --maincolor: #53f9ff;
+    --maincolor: #CCDBFF;
 }
 
 html::-webkit-scrollbar {
@@ -24,7 +24,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #000F33;
+    background: #CCDBFF;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -66,7 +66,7 @@ html::-webkit-scrollbar-thumb {
     background: rgb(22, 11, 30);
     background: linear-gradient(90deg, #1655F2 14%, #F5F8FF 49%, #FD6420 85%);
     background-size: 200% auto;
-    color: #160B1E;
+    color: #000F33;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -123,24 +123,26 @@ body {
 }
 
 .nav-link {
-    color: white !important;
+    color: #6692FF !important;
     border-radius: 9px;
 }
 
 .navbar-toggler {
-    background: white !important;
+    background: #6692FF !important;
+    border-radius: 9px;
 }
 
 .active {
-    background: #53f9ff;
+    background: #6692FF;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: #53f9ff;
+    background: #6692FF;
     color: black !important;
+    border-radius: 9px;
 }
 
 .header {
@@ -152,13 +154,13 @@ body {
     width: 100%;
     position: relative;
     box-shadow: 8px rgba(0, 0, 0, 0.24);
-    background: black;
+    background: #CCDBFF;
     overflow: hidden;
 }
 
 .headervdocontainer {
     z-index: 0;
-    background: black;
+    background: #CCDBFF;
     transform: scale(1);
     top: 0;
     left: 0;
@@ -177,11 +179,11 @@ body {
     opacity: 100;
 }
 
-.logo {
+.ecellLogo {
     z-index: 5;
     padding: 25px;
     margin-left: calc(2vh + 5px);
-    background: url("ew.png");
+    background: url("../ew.png");
     background-repeat: no-repeat;
     float: top;
     background-size: cover;
@@ -193,26 +195,61 @@ body {
     left: 0;
     transform: translate(-1vw, -2vh);
     clip-path: circle(50.0% at 50% 50%);
+    cursor: pointer;
 }
+
+.saffLogo {
+    z-index: 5;
+    padding: 25px; 
+    margin-left: calc(2vh + 5px);
+    background: url("../saff.png"); 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    box-sizing: border-box;
+    position: fixed;
+    width: 100px; 
+    height: 50px; 
+    bottom: 3%; 
+    left: 0; 
+    cursor: pointer; 
+}
+
+.necLogo {
+    z-index: 5;
+    padding: 25px; 
+    background: url("../nec.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+    box-sizing: border-box;
+    position: fixed;
+    width: 50px; 
+    height: 80px; 
+    bottom: 3%; 
+    right: 2%;  
+    cursor: pointer; 
+}
+
 
 .heading {
     font-size: calc(1vh + 4vw);
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Montserrat';
     position: absolute;
     top: 35%;
     margin-left: 35vw;
     font-weight: 600;
     letter-spacing: calc(1vh);
-    color: rgb(255, 255, 255);
+    color: #000F33;
     opacity: 100;
     transform: scale(1.05);
     text-align: center;
     /* below shine */
-    background: rgb(213, 213, 213);
-    background: radial-gradient(circle, rgba(213, 213, 213, 1) 16%, rgba(255, 201, 0, 1) 32%, rgba(0, 0, 0, 1) 64%);
+    background: #000F33;
+    background: radial-gradient(circle, #000F33 16%, rgba(255, 201, 0, 1) 32%, rgba(0, 0, 0, 1) 64%);
     background-size: 200% auto;
-    font-family: 'PT Serif', serif;
-    color: #160B1E;
+    font-family: 'Montserrat';
+    color: #000F33;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -223,7 +260,7 @@ body {
     box-sizing: border-box;
     font-size: calc(1vh + 5px + 2vw);
     transform: scale(0.8);
-    font-family: 'Poiret One', 'Slabo 27px', serif;
+    font-family: 'Montserrat';
     position: absolute;
     top: 60%;
     right: 24vw;
@@ -231,7 +268,7 @@ body {
     text-align: center;
     font-weight: bolder;
     letter-spacing: 1vh;
-    color: #1655F2;
+    color: #000F33;
     opacity: 100;
 }
 
@@ -277,9 +314,10 @@ body {
 }
 
 .twitter {
-    background: url("twitter.jpg") no-repeat;
+    background: url("../twitter.webp") no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-color: white;
     filter: saturate(1);
     transition: all 250ms ease-in;
 }
@@ -301,7 +339,7 @@ body {
     background: transparent;
     padding: 10px;
     border-radius: 25px;
-    border-bottom: 2px rgb(107, 107, 107) solid;
+    border-bottom: 2px #000F33 solid;
     width: 63vw;
     position: relative;
     left: 17vw;
@@ -311,20 +349,20 @@ body {
     background: transparent;
     padding: 10px;
     border-radius: 25px;
-    border-top: 2px rgb(92, 92, 92) solid;
+    border-top: 2px #000F33 solid;
     width: 63vw;
     position: relative;
     left: 17vw;
 }
 
 .midbody {
-    background: #000F33;
-    font-family: 'Montserrat', sans-serif;
+    background: #CCDBFF;
+    font-family: 'Montserrat';
 }
 
 .quotegenerator {
     position: relative;
-    font-family: 'Dancing Script';
+    font-family: 'Montserrat';
     letter-spacing: 0.2em;
 }
 
@@ -362,7 +400,7 @@ body {
 
 .footer {
     background: #000F33;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 @media only screen and (max-width: 992px) {
@@ -373,9 +411,9 @@ body {
 }
 
 .importantlinks * {
-    font-family: 'Forum', cursive;
-    font-size: small;
-    color: rgba(133, 132, 132, 0.877);
+    font-family: 'Montserrat';
+    font-size: medium;
+    color: #6692FF;
 }
 
 .importantlinks a {
@@ -384,12 +422,12 @@ body {
 
 .importantlinks a:hover {
     text-decoration: underline;
-    color: rgba(190, 179, 179, 0.877);
+    color: #6692FF;
 }
 
 .mgg {
     position: relative;
-    font-family: 'Dancing Script';
+    font-family: 'Montserrat';
     letter-spacing: 0.2em;
 }
 
@@ -409,21 +447,24 @@ body {
 }
 
 .dropdown-menu {
-    background-color: #53f9ff;
-    /* Set your desired background color */
+    background-color:#6692FF;
+    border-radius: 12px;
+    width: 150px;
 }
 
 .dropdown-item {
-    background-color: #53f9ff;
+    background-color: #6692FF;
     color: black !important;
-    border-radius: 9px;
+    border-radius: 12px;
+    padding: 10px 15px;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus,
 .dropdown-item:active {
-    background-color: #fff;
-    /* Set your desired hover background color */
+    background-color: #6692FF;
     color: black !important;
-    border-radius: 9px;
+    border-radius: 12px;
+    -webkit-text-fill-color: white;
+    font-weight: bold;
 }
