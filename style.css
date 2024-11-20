@@ -200,37 +200,36 @@ body {
 
 .saffLogo {
     z-index: 5;
-    padding: 25px; 
+    padding: 25px;
     margin-left: calc(2vh + 5px);
-    background: url("../saff.png"); 
+    background: url("../saff.png");
     background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: center; 
+    background-size: contain;
+    background-position: center;
     box-sizing: border-box;
     position: fixed;
-    width: 100px; 
-    height: 50px; 
-    bottom: 3%; 
-    left: 0; 
-    cursor: pointer; 
+    width: 100px;
+    height: 50px;
+    bottom: 3%;
+    left: 0;
+    cursor: pointer;
 }
 
 .necLogo {
     z-index: 5;
-    padding: 25px; 
+    padding: 25px;
     background: url("../nec.png");
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
     background-position: center;
     box-sizing: border-box;
     position: fixed;
-    width: 50px; 
-    height: 80px; 
-    bottom: 3%; 
-    right: 2%;  
-    cursor: pointer; 
+    width: 50px;
+    height: 80px;
+    bottom: 3%;
+    right: 2%;
+    cursor: pointer;
 }
-
 
 .heading {
     font-size: calc(1vh + 4vw);
@@ -314,6 +313,15 @@ body {
 }
 
 .twitter {
+    background: url("../twitter.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: white;
+    filter: saturate(1);
+    transition: all 250ms ease-in;
+}
+
+.fa-brands fa-x-twitter {
     background: url("../twitter.jpg") no-repeat;
     background-position: center;
     background-size: contain;
@@ -447,7 +455,7 @@ body {
 }
 
 .dropdown-menu {
-    background-color:#6692FF;
+    background-color: #6692FF;
     border-radius: 12px;
     width: 150px;
 }
