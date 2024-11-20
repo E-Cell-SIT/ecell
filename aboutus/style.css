@@ -1,9 +1,9 @@
 body {
-    background-color: #F5F8FF;
+    background-color:  #CCDBFF;
 }
 
 :root {
-    --maincolor: #F5F8FF;
+    --maincolor:  #CCDBFF;
 }
 
 html::-webkit-scrollbar {
@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #6692FF;
+    background:  #CCDBFF;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -120,7 +120,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 p {
-    color: #6692FF;
+    color:  #000F33;
     line-height: 1.8;
     margin: 0 0 15px;
     padding-bottom: 12px;
@@ -131,7 +131,7 @@ p {
 
 img {
     border-radius: 5%;
-    border: 2px solid #53f9ff;
+    border: 2px solid  #000F33;
 }
 
 .social {
@@ -210,7 +210,7 @@ img {
 
 .guide-section {
     padding: 20px 0;
-    background-color: #F5F8FF;
+    background-color:  #CCDBFF;
     color: #6692FF;
     text-wrap: ;
     font-family: 'Montserrat', sans-serif;
@@ -245,7 +245,7 @@ img {
 }
 
 .guidef h2 {
-    font-size: 45px;
+    font-size: 43px;
     font-weight: 600;
 }
 
@@ -276,7 +276,7 @@ img {
 
 .collaborators-section {
     padding: 80px 0;
-    background-color: #F5F8FF;
+    background-color:  #CCDBFF;
     color: #53f9ff;
     font-family: 'Montserrat', sans-serif;
 }
