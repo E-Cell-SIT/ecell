@@ -45,7 +45,7 @@ html::-webkit-scrollbar-thumb {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, #020C19 100%, #040C1A 80%, #160B1E 60%, #2C0E29 40%, #400F2F 40%, #511036 48%, #3E0F2F 56%, #290E26 56%, #100C1D 8.32%, #020C17 8.32%);
+    background: radial-gradient(circle, #CCDBFF 100%, #CCDBFF 80%, #160B1E 60%, #2C0E29 40%, #400F2F 40%, #511036 48%, #3E0F2F 56%, #290E26 56%, #100C1D 8.32%, #020C17 8.32%);
     /*to be removed*/
 }
 
@@ -66,7 +66,7 @@ html::-webkit-scrollbar-thumb {
     background: rgb(22, 11, 30);
     background: linear-gradient(90deg, #1655F2 14%, #F5F8FF 49%, #FD6420 85%);
     background-size: 200% auto;
-    color: #000F33;
+    color: #CCDBFF;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
