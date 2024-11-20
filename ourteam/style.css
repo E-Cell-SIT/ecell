@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-.logo {
+.ecellLogo {
     z-index: 5;
     padding: 25px;
     margin-left: calc(2vh + 5px);
-    background: url("ew.png");
+    background: url("../ew.png");
     background-repeat: no-repeat;
     float: top;
     background-size: cover;
@@ -19,6 +19,40 @@
     left: 0;
     transform: translate(-1vw, -2vh);
     clip-path: circle(50.0% at 50% 50%);
+    cursor: pointer;
+}
+
+.saffLogo {
+    z-index: 5;
+    padding: 25px; 
+    margin-left: calc(2vh + 5px);
+    background: url("../saff.png"); 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    box-sizing: border-box;
+    position: fixed;
+    width: 100px; 
+    height: 50px; 
+    bottom: 3%; 
+    left: 0; 
+    cursor: pointer; 
+}
+
+.necLogo {
+    z-index: 5;
+    padding: 25px; 
+    background: url("../nec.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+    box-sizing: border-box;
+    position: fixed;
+    width: 50px; 
+    height: 80px; 
+    bottom: 3%; 
+    right: 2%;  
+    cursor: pointer; 
 }
 
 body {
@@ -26,7 +60,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; */
-    background: #000F33;
+    background: #CCDBFF;
     /* 220e24  */
 }
 
@@ -55,24 +89,26 @@ html::-webkit-scrollbar-thumb {
 }
 
 .nav-link {
-    color: white !important;
+    color: #6692FF !important;
     border-radius: 9px;
 }
 
 .navbar-toggler {
-    background: white !important;
+    background: #6692FF !important;
+    border-radius: 9px;
 }
 
 .active {
-    background: #53f9ff;
+    background: #6692FF;
     color: black !important;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: #53f9ff;
+    background: #6692FF;
     color: black !important;
+    border-radius: 9px;
 }
 
 .navi {
@@ -86,13 +122,13 @@ html::-webkit-scrollbar-thumb {
 }
 
 .dropdown-menu {
-    background-color: #53f9ff;
+    background-color: #6692FF;
     border-radius: 9px;
     /* Set your desired background color */
 }
 
 .dropdown-item {
-    background-color: #53f9ff;
+    background-color: #6692FF;
     color: black !important;
     border-radius: 9px;
 }
@@ -100,11 +136,12 @@ html::-webkit-scrollbar-thumb {
 .dropdown-item:hover,
 .dropdown-item:focus,
 .dropdown-item:active {
-    background-color: #fff;
-    /* Set your desired hover background color */
+    background-color: #6692FF;
     color: black !important;
-    border-radius: 9px;
-}
+    border-radius: 12px;
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+}}
 
 
 /* navigation bar end */
@@ -113,7 +150,7 @@ html::-webkit-scrollbar-thumb {
     background: transparent;
     padding: 10px;
     border-radius: 25px;
-    border-bottom: 2px rgb(107, 107, 107) solid;
+    border-bottom: 2px white solid;
     width: 63vw;
     position: relative;
     left: 17vw;
@@ -123,15 +160,15 @@ html::-webkit-scrollbar-thumb {
     background: transparent;
     padding: 10px;
     border-radius: 25px;
-    border-top: 2px rgb(92, 92, 92) solid;
+    border-top: 2px #000F33 solid;
     width: 63vw;
     position: relative;
     left: 17vw;
 }
 
 .main-heading {
-    font-family: 'Josefin Slab', serif;
-    color: white;
+    font-family: 'Montserrat';
+    color: #000F33;
     text-align: center;
     /*   text-transform: uppercase; */
     padding: 10px 40px;
@@ -146,9 +183,9 @@ html::-webkit-scrollbar-thumb {
 .team-heading {
     margin: 30px 0;
     text-align: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat';
     font-weight: 400;
-    color: white;
+    color: #000F33;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
@@ -165,21 +202,21 @@ html::-webkit-scrollbar-thumb {
     position: relative;
     width: 300px;
     height: 400px;
-    background: rgba(102, 102, 102, 0.1);
+    background: #6692FF;
     margin: 20px;
-    box-shadow: 0 1px 2px 2px #53f9ff;
+    box-shadow: 0 1px 2px 2px #000F33;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
 }
 
-.pic {
+.pic { 
     position: relative;
     width: 160px;
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid grey;
+    border: 5px solid white;
 }
 
 img {
@@ -207,7 +244,7 @@ img {
 }
 
 .info h3 {
-    color: #fff;
+    color: white;
     letter-spacing: 2px;
     font-weight: 600;
     font-size: 18px;
@@ -248,10 +285,10 @@ img {
 .footer {
 
     background: #000F33;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 
     background: #000F33;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat';
 
 }
 
@@ -263,9 +300,9 @@ img {
 }
 
 .importantlinks * {
-    font-family: 'Forum', cursive;
-    font-size: small;
-    color: #808080;
+    font-family: 'Montserrat';
+    font-size: medium;
+    color: #6692FF;
 }
 
 .importantlinks a {
@@ -274,5 +311,5 @@ img {
 
 .importantlinks a:hover {
     text-decoration: underline;
-    color: rgba(190, 179, 179, 0.877);
+    color: white;
 }
