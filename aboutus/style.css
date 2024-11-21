@@ -110,7 +110,7 @@ html::-webkit-scrollbar-thumb {
     color: #6692FF ;
     font-size: 45px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .title span {
@@ -126,7 +126,7 @@ p {
     padding-bottom: 12px;
     font-size: larger;
     display: flex;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 img {
@@ -221,8 +221,8 @@ img {
     padding: 20px 0;
     background-color:  #CCDBFF;
     color: #6692FF;
-    text-wrap: ;
-    font-family: 'Montserrat', sans-serif;
+    text-wrap:wrap;
+    font-family: 'Montserrat';
 }
 
 .guide-section h2,
@@ -250,7 +250,7 @@ img {
 }
 
 .guidef {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .guidef h2 {
@@ -287,7 +287,7 @@ img {
     padding: 80px 0;
     background-color:  #CCDBFF;
     color: #53f9ff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .collaborators-section .collaborator-images {
