@@ -124,6 +124,8 @@ p {
     line-height: 1.8;
     margin: 0 0 15px;
     padding-bottom: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: larger;
     display: flex;
     font-family: 'Montserrat';
@@ -246,12 +248,14 @@ img {
     line-height: 1.6;
     display: flex;
     text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .guide-section .guide-image {
     max-width: 200px;
     max-height: 300px;
-    margin-left: 45%;
+    margin-left: 42%;
 }
 
 .guide-section .guide-image .guide {
