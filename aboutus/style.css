@@ -175,6 +175,15 @@ img {
     /* LinkedIn color */
 }
 
+.fa-brands fa-x-twitter {
+    background: url("../twitter.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: white;
+    filter: saturate(1);
+    transition: all 250ms ease-in;
+}
+
 .footer {
     background: #000F33;
 }

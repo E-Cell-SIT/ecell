@@ -183,7 +183,7 @@ body {
     z-index: 5;
     padding: 25px;
     margin-left: calc(2vh + 5px);
-    background: url("../ew.png");
+    background: url("ew.png");
     background-repeat: no-repeat;
     float: top;
     background-size: cover;
@@ -202,7 +202,7 @@ body {
     z-index: 5;
     padding: 25px;
     margin-left: calc(2vh + 5px);
-    background: url("../saff.png");
+    background: url("saff.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -218,7 +218,7 @@ body {
 .necLogo {
     z-index: 5;
     padding: 25px;
-    background: url("../nec.png");
+    background: url("nec.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -319,6 +319,10 @@ body {
     background-color: white;
     filter: saturate(1);
     transition: all 250ms ease-in;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -ms-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
 }
 
 .fa-brands fa-x-twitter {

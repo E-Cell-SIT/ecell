@@ -208,7 +208,16 @@ body {
 }
 
 .twitter {
-    background: url("../twitter.webp") no-repeat;
+    background: url("../twitter.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: white;
+    filter: saturate(1);
+    transition: all 250ms ease-in;
+}
+
+.fa-brands fa-x-twitter{
+    background: url("twitter.jpg") no-repeat;
     background-position: center;
     background-size: contain;
     background-color: white;
