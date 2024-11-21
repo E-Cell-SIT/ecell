@@ -252,7 +252,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: shine 3s linear infinite; 
+    animation: shine 3s linear infinite;
 }
 
 .tagline {
@@ -313,7 +313,7 @@ body {
 }
 
 .twitter {
-    background: url("../twitter.jpg") no-repeat;
+    background: url("twitter.jpg") no-repeat;
     background-position: center;
     background-size: contain;
     background-color: white;
@@ -326,7 +326,7 @@ body {
 }
 
 .fa-brands fa-x-twitter {
-    background: url("../twitter.jpg") no-repeat;
+    background: url("twitter.jpg") no-repeat;
     background-position: center;
     background-size: contain;
     background-color: white;
