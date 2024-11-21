@@ -1,9 +1,9 @@
 body {
-    background-color:  #CCDBFF;
+    background-color: #CCDBFF;
 }
 
 :root {
-    --maincolor:  #CCDBFF;
+    --maincolor: #CCDBFF;
 }
 
 html::-webkit-scrollbar {
@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background:  #CCDBFF;
+    background: #CCDBFF;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -39,35 +39,35 @@ html::-webkit-scrollbar-thumb {
 
 .saffLogo {
     z-index: 5;
-    padding: 25px; 
+    padding: 25px;
     margin-left: calc(2vh + 5px);
-    background: url("../saff.png"); 
+    background: url("../saff.png");
     background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: center; 
+    background-size: contain;
+    background-position: center;
     box-sizing: border-box;
     position: fixed;
-    width: 100px; 
-    height: 50px; 
-    bottom: 3%; 
-    left: 0; 
-    cursor: pointer; 
+    width: 100px;
+    height: 50px;
+    bottom: 3%;
+    left: 0;
+    cursor: pointer;
 }
 
 .necLogo {
     z-index: 5;
-    padding: 25px; 
+    padding: 25px;
     background: url("../nec.png");
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
     background-position: center;
     box-sizing: border-box;
     position: fixed;
-    width: 50px; 
-    height: 80px; 
-    bottom: 3%; 
-    right: 2%;  
-    cursor: pointer; 
+    width: 50px;
+    height: 80px;
+    bottom: 3%;
+    right: 2%;
+    cursor: pointer;
 }
 
 .navbar {
@@ -92,7 +92,7 @@ html::-webkit-scrollbar-thumb {
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-    background: #6692FF ;
+    background: #6692FF;
     color: black !important;
 }
 
@@ -107,20 +107,20 @@ html::-webkit-scrollbar-thumb {
 }
 
 .title h1 {
-    color: #6692FF ;
+    color: #6692FF;
     font-size: 45px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
 .title span {
-    color:  #000F33;
+    color: #000F33;
     font-size: 45px;
     font-weight: 700;
 }
 
 p {
-    color:  #000F33;
+    color: #000F33;
     line-height: 1.8;
     margin: 0 0 15px;
     padding-bottom: 12px;
@@ -131,7 +131,7 @@ p {
 
 img {
     border-radius: 5%;
-    border: 2px solid  #000F33;
+    border: 2px solid #000F33;
 }
 
 .social {
@@ -184,6 +184,15 @@ img {
     transition: all 250ms ease-in;
 }
 
+.fa-brands fa-x-twitter {
+    background: url("../twitter.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: white;
+    filter: saturate(1);
+    transition: all 250ms ease-in;
+}
+
 .footer {
     background: #000F33;
 }
@@ -219,7 +228,7 @@ img {
 
 .guide-section {
     padding: 20px 0;
-    background-color:  #CCDBFF;
+    background-color: #CCDBFF;
     color: #6692FF;
     text-wrap: ;
     font-family: 'Montserrat', sans-serif;
@@ -285,7 +294,7 @@ img {
 
 .collaborators-section {
     padding: 80px 0;
-    background-color:  #CCDBFF;
+    background-color: #CCDBFF;
     color: #53f9ff;
     font-family: 'Montserrat', sans-serif;
 }
@@ -330,7 +339,7 @@ img {
 }
 
 .dropdown-menu {
-    background-color:#6692FF;
+    background-color: #6692FF;
     border-radius: 12px;
     width: 150px;
 }
@@ -350,4 +359,7 @@ img {
     border-radius: 12px;
     -webkit-text-fill-color: white;
     font-weight: bold;
-}}
+}
+
+
+}
