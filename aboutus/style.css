@@ -111,6 +111,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 45px;
     font-weight: 600;
     font-family: 'Montserrat';
+    padding-left: 10%;
 }
 
 .title span {
@@ -118,12 +119,23 @@ html::-webkit-scrollbar-thumb {
     font-size: 45px;
     font-weight: 700;
 }
+.title p{
+    color: #000F33;
+    line-height: 1.8;
+    margin: 0 0 15px;
+    padding-bottom: 12px;
+    font-size: medium;
+    display: flex;
+    font-family: 'Montserrat';
+}
 
 p {
     color: #000F33;
     line-height: 1.8;
     margin: 0 20px 15px 0;
     padding-bottom: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: larger;
     display: block;
     /* Change from flex to block for proper text alignment */
@@ -250,12 +262,14 @@ img {
     line-height: 1.6;
     display: flex;
     text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .guide-section .guide-image {
     max-width: 200px;
     max-height: 300px;
-    margin-left: 45%;
+    margin-left: 42%;
 }
 
 .guide-section .guide-image .guide {
@@ -276,7 +290,7 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #6692FF;
+    background-color: #000F33;
     color: white;
     padding: 5px;
     border-radius: 5px;
