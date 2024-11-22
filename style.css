@@ -316,7 +316,7 @@ body {
     background: url("twitter.jpg") no-repeat;
     background-position: center;
     background-size: contain;
-    background-color: white;
+    background-color: black;
     filter: saturate(1);
     transition: all 250ms ease-in;
     -webkit-transition: all 250ms ease-in;

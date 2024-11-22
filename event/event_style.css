@@ -305,7 +305,7 @@ p {
     background: transparent;
     padding: 10px;
     border-radius: 25px;
-    border-bottom: 2px rgb(107, 107, 107) solid;
+    border-bottom: 2px white solid;
     width: 63vw;
     position: relative;
 }
@@ -314,7 +314,7 @@ p {
     background: transparent;
     padding: 10px;
     border-radius: 25px;
-    border-top: 2px rgb(92, 92, 92) solid;
+    border-top: 2px white solid;
     width: 63vw;
     position: relative;
 }
@@ -389,7 +389,7 @@ p {
 .past .cardz .box .contentBx div {
     transform-style: preserve-3d;
     padding: 20px;
-    background: linear-gradient(45deg, #FD6420, #CCDBFF);
+    background:  #6692FF;
     transform: translateZ(100px);
 }
 
