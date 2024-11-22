@@ -111,12 +111,22 @@ html::-webkit-scrollbar-thumb {
     font-size: 45px;
     font-weight: 600;
     font-family: 'Montserrat';
+    padding-left: 10%;
 }
 
 .title span {
     color: #000F33;
     font-size: 45px;
     font-weight: 700;
+}
+.title p{
+    color: #000F33;
+    line-height: 1.8;
+    margin: 0 0 15px;
+    padding-bottom: 12px;
+    font-size: medium;
+    display: flex;
+    font-family: 'Montserrat';
 }
 
 p {
@@ -276,7 +286,7 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #6692FF;
+    background-color: #000F33;
     color: white;
     padding: 5px;
     border-radius: 5px;
