@@ -122,11 +122,14 @@ html::-webkit-scrollbar-thumb {
 p {
     color: #000F33;
     line-height: 1.8;
-    margin: 0 0 15px;
+    margin: 0 20px 15px 0;
     padding-bottom: 12px;
     font-size: larger;
-    display: flex;
+    display: block;
+    /* Change from flex to block for proper text alignment */
     font-family: 'Montserrat';
+    text-align: justify;
+    /* Justify the text */
 }
 
 img {
@@ -226,11 +229,12 @@ img {
 
 /* Guide Section */
 
-.guide-section {
+
+/* .guide-section {
     padding: 20px 0;
     background-color: #CCDBFF;
     color: #6692FF;
-    text-wrap:wrap;
+    text-wrap: wrap;
     font-family: 'Montserrat';
 }
 
@@ -287,6 +291,98 @@ img {
     visibility: visible;
     white-space: nowrap;
     opacity: 1;
+} */
+
+.guide-section {
+    padding: 20px 0;
+    background-color: #CCDBFF;
+    color: #6692FF;
+    text-wrap: wrap;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* Ensure the section takes up the full viewport height */
+    text-align: center;
+    /* Center text horizontally */
+}
+
+.guide-section .guide-image {
+    max-width: 200px;
+    max-height: 300px;
+    margin: 0 auto;
+    /* Center the image horizontally */
+    position: relative;
+}
+
+.guide-section h2,
+.collaborators-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.guide-section p,
+.collaborators-section p {
+    font-size: 22px;
+    line-height: 1.6;
+    display: flex;
+    text-align: justify;
+}
+
+.guide-section .guide-image .guide {
+    position: relative;
+}
+
+.guidef {
+    font-family: 'Montserrat';
+}
+
+.guidef h2 {
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.guide-section .guide-image .tooltip {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #6692FF;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    white-space: nowrap;
+    text-align: center;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.guide-section .guide-image a:hover .tooltip {
+    visibility: visible;
+    white-space: nowrap;
+    opacity: 1;
+}
+
+.guide-section a {
+    text-decoration: none;
+    /* Remove underline for the link */
+}
+
+.guide-section a:hover {
+    text-decoration: none;
+    /* Ensure underline is removed on hover */
+}
+
+.guide-section p {
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 20px;
+    /* Add padding to the left and right */
+    margin: 20px;
+    /* Add margin to create space around the text */
 }
 
 
@@ -336,6 +432,16 @@ img {
     visibility: visible;
     white-space: nowrap;
     opacity: 1;
+}
+
+.collaborators-section p {
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 20px;
+    /* Add padding to the left and right */
+    margin: 20px;
+    /* Add margin to create space around the text */
 }
 
 .dropdown-menu {
