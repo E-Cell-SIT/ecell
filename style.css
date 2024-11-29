@@ -125,6 +125,8 @@ body {
 .nav-link {
     color: #6692FF !important;
     border-radius: 9px;
+    font-weight: 900;
+    
 }
 
 .navbar-toggler {
@@ -135,6 +137,7 @@ body {
 .active {
     background: #6692FF;
     color: black !important;
+    font-weight: 800;
 }
 
 .nav-link:hover,
@@ -172,6 +175,7 @@ body {
 .headervdo {
     transform: scale(1.5);
     opacity: 0;
+    width: 100%;
 }
 
 .headervdo_afterpreload {
@@ -189,8 +193,8 @@ body {
     background-size: cover;
     box-sizing: border-box;
     position: fixed;
-    width: calc(50px + 3vw);
-    height: calc(50px + 3vw);
+    width: calc(60px + 3vw);
+    height: calc(60px + 3vw);
     top: 3%;
     left: 0;
     transform: translate(-1vw, -2vh);
@@ -218,14 +222,14 @@ body {
 .necLogo {
     z-index: 5;
     padding: 25px;
-    background: url("nec.png");
+    background: url("nec (2).png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     box-sizing: border-box;
     position: fixed;
-    width: 50px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     bottom: 3%;
     right: 2%;
     cursor: pointer;
@@ -395,6 +399,7 @@ body {
 
 .card-img {
     opacity: 0.4;
+    
 }
 
 .dream:hover,
@@ -479,4 +484,8 @@ body {
     border-radius: 12px;
     -webkit-text-fill-color: white;
     font-weight: bold;
+}
+
+.detail-size{
+    font-size: 17px;
 }
