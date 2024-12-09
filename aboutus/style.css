@@ -57,7 +57,7 @@ html::-webkit-scrollbar-thumb {
 .necLogo {
     z-index: 5;
     padding: 25px;
-    background: url("../nec.png");
+    background: url("../nec (2).png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -121,12 +121,13 @@ html::-webkit-scrollbar-thumb {
 }
 .title p{
     color: #000F33;
-    line-height: 1.8;
+    line-height: 1.5;
     margin: 0 0 15px;
     padding-bottom: 12px;
     font-size: medium;
     display: flex;
     font-family: 'Montserrat';
+    font-size: larger;
 }
 
 p {
@@ -329,6 +330,7 @@ img {
     margin: 0 auto;
     /* Center the image horizontally */
     position: relative;
+    float: left;
 }
 
 .guide-section h2,
@@ -359,10 +361,11 @@ img {
 }
 
 .guide-section .guide-image .tooltip {
-    position: relative;
+    position: absolute;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #6692FF;
+    background-color: #000F33;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -371,6 +374,8 @@ img {
     white-space: nowrap;
     text-align: center;
     transition: visibility 0s, opacity 0.5s linear;
+    margin-left: 8px;
+    font-size: larger;
 }
 
 .guide-section .guide-image a:hover .tooltip {
@@ -440,6 +445,7 @@ img {
     white-space: nowrap;
     text-align: center;
     transition: visibility 0s, opacity 0.5s linear;
+    font-size: medium;
 }
 
 .collaborators-section .collaborator-images .collaborator:hover .tooltip {

@@ -39,10 +39,10 @@
     cursor: pointer; 
 }
 
-.necLogo {
+.necLogo {  
     z-index: 5;
     padding: 25px; 
-    background: url("../nec.png");
+    background: url("../nec (2).png");
     background-repeat: no-repeat;
     background-size: contain; 
     background-position: center;
@@ -247,15 +247,16 @@ img {
     color: white;
     letter-spacing: 2px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     margin: 35px 0 0px;
     text-transform: capitalize;
 }
 
 .info h3 span {
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000F33;
 }
 
 .social {

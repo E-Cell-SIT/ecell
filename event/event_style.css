@@ -138,7 +138,7 @@ body {
 .necLogo {
     z-index: 5;
     padding: 25px;
-    background: url("../nec.png");
+    background: url("../nec (2).png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -255,6 +255,7 @@ body {
 
 p {
     font-family: 'Montserrat';
+    text-align: justify;
 }
 
 .talk {
@@ -403,6 +404,7 @@ p {
 .past .cardz .box .contentBx div p {
     color: white;
     font-size: 13px;
+    text-align: justify;
 }
 
 @media only screen and (max-width:570px) {
