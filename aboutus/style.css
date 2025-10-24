@@ -57,7 +57,7 @@ html::-webkit-scrollbar-thumb {
 .necLogo {
     z-index: 5;
     padding: 25px;
-    background: url('NEC IITB LOGO.png') no-repeat center;
+    background: url('../NEC IITB LOGO.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -490,3 +490,4 @@ img {
 
 
 }
+
