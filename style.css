@@ -222,7 +222,7 @@ body {
 .necLogo {
     z-index: 5;
     padding: 25px;
-    background: url("nec (2).png");
+    background: url("NEC IITB LOGO.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -488,4 +488,5 @@ body {
 
 .detail-size{
     font-size: 17px;
+
 }
